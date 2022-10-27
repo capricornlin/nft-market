@@ -1,0 +1,213 @@
+{
+  "contractName": "IERCMetadata",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "_name",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "_symbol",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"_symbol\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/interfaces/IERCMetadata.sol\":\"IERCMetadata\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/interfaces/IERCMetadata.sol\":{\"keccak256\":\"0xe69f922938376259752196fe5127d6fa2fb4a66cac3c8cbbe147652465608bc8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ccd8151a3ce3925ef342dd06bf1fb52d089ea5eeddc89dab94a05d875fc8719f\",\"dweb:/ipfs/Qmd3YfRqciYPRPs1otM5UoSDys2dqBTbMpSVhSvMhRhkqw\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IERCMetadata {\n    \n    function name() external view returns (string memory _name);\n\n    \n    function symbol() external view returns (string memory _symbol);\n\n    \n    // function tokenURI(uint256 _tokenId) external view returns (string);\n\n}",
+  "sourcePath": "/Users/casey/Desktop/NFT/nft-marketplace/src/contracts/interfaces/IERCMetadata.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/interfaces/IERCMetadata.sol",
+    "exportedSymbols": {
+      "IERCMetadata": [
+        805
+      ]
+    },
+    "id": 806,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 794,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:10"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IERCMetadata",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 805,
+        "linearizedBaseContracts": [
+          805
+        ],
+        "name": "IERCMetadata",
+        "nameLocation": "67:12:10",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "06fdde03",
+            "id": 799,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "name",
+            "nameLocation": "100:4:10",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 795,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "104:2:10"
+            },
+            "returnParameters": {
+              "id": 798,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 797,
+                  "mutability": "mutable",
+                  "name": "_name",
+                  "nameLocation": "144:5:10",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 799,
+                  "src": "130:19:10",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 796,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "130:6:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "129:21:10"
+            },
+            "scope": 805,
+            "src": "91:60:10",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "95d89b41",
+            "id": 804,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "symbol",
+            "nameLocation": "171:6:10",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 800,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "177:2:10"
+            },
+            "returnParameters": {
+              "id": 803,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 802,
+                  "mutability": "mutable",
+                  "name": "_symbol",
+                  "nameLocation": "217:7:10",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 804,
+                  "src": "203:21:10",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 801,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "203:6:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "202:23:10"
+            },
+            "scope": 805,
+            "src": "162:64:10",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 806,
+        "src": "57:253:10",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:278:10"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.8",
+  "updatedAt": "2022-09-24T02:38:53.554Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
